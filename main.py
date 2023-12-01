@@ -77,7 +77,7 @@ while True:
 	else: lecturas += '-'
     
 	#Número de lecturas necesarias para comprobar la detección de sirena
-	if len(lecturas) > 30: print(detectar_Sirena())
+	if len(lecturas) > 20: print(detectar_Sirena())
     
 	#Controlar el tiempo de toma de muestra
 	sleep(0.2)
